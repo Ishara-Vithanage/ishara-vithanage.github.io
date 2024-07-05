@@ -71,6 +71,17 @@
             background: #333;
             color: white;
         }
+        #typingText {
+            color: #fff;
+            text-align: center;
+            margin-top: 200px;
+        }
+        h1{
+
+        }
+        .auto-type{
+            color: white;
+        }
     </style>
 </head>
 <body>
@@ -82,6 +93,20 @@
             <li style="font-size: 20px;"><a href="myContact.html">Contact</a></li>
         </ul>
     </nav>
+    <div id="typingText">
+        <h3 style="color: white; text-align: center; font-size: 25px">Welcome to My Profile</h3>
+        <h1 style="color: white; text-align: center; font-size: 50px">I am <span class="auto-type"></span></h1>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed(".auto-type",{
+            strings : ["Ishara Harshana", "a Front-End Developer", "a Programmer", "a Designer", "a Musician"],
+            typeSpeed: 80,
+            backSpeed: 50,
+            loop: true,
+        }
+        )
+    </script>
     <footer>
         <p>© 2024 myProfile. All rights reserved</p>
         <div>
