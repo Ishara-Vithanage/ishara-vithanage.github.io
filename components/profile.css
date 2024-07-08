@@ -1,0 +1,90 @@
+body {
+    background-color: #181818;
+    font-family: 'calibri';
+    background-size: 100%, 100%;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    margin-left: 15px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+.profileImage {
+    padding: 30px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+}
+section {
+    color: #fff;
+}
+h2 {
+    padding: 30px;
+    font-size: 50px;
+    text-align: center;
+}
+li {
+    font-size: 30px;
+    margin-left: 30px;
+}
+p {
+    font-size: 20px;
+    margin-left: 30px; 
+}
+footer {
+    background-color: #333;
+    color:#fff;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20%;
+}
+.fa:hover {
+     opacity: 0.7;
+}
+.fa-facebook {
+    background: #333;
+    color: white;
+}
+.fa-instagram {
+    background: #333;
+    color: white;
+}
+.fa-linkedin {
+    background: #333;
+    color: white;
+}
+.fa-github {
+    background: #333;
+    color: white;
+}
