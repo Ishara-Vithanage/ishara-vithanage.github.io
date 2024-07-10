@@ -1,12 +1,12 @@
 body {
-    background-color: #181818;
+    background-color: black;
     font-family: 'calibri';
     background-size: 100%, 100%;
     background-repeat: no-repeat;
     overflow-x: hidden;
 }
 nav {
-    background-color: #333;
+    background-color: black;
     color: #fff;
     padding: 10px;
 }
@@ -29,16 +29,22 @@ nav ul li a {
 nav ul li a:hover {
     text-decoration: underline;
 }
-.profileImage {
-    padding: 30px;
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    margin: 0 auto;
-    display: block;
+.welcomeHeading {
+    font-weight: 600; 
+    margin-right: auto; 
+    font-size: 25px;
+    background-image: linear-gradient(45deg, #f4f4f4, #8b8b8b);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
 }
 section {
-    color: #fff;
+    color: #E8E8E8;
+    background-color: #181818;
+    border-radius: 50px;
+    margin-bottom: 100px;
 }
 h2 {
     padding: 30px;
@@ -49,15 +55,16 @@ li {
     font-size: 30px;
     margin-left: 30px;
 }
-p {
+.content {
     font-size: 20px;
     margin-left: 30px; 
 }
 footer {
-    background-color: #333;
+    background-color: #000000;
     color:#fff;
     text-align: center;
     padding: 10px;
+    position: static;
     bottom: 0;
     width: 100%;
 }
@@ -73,18 +80,18 @@ footer {
      opacity: 0.7;
 }
 .fa-facebook {
-    background: #333;
+    background: #000000;
     color: white;
 }
 .fa-instagram {
-    background: #333;
+    background: #000000;
     color: white;
 }
 .fa-linkedin {
-    background: #333;
+    background: #000000;
     color: white;
 }
 .fa-github {
-    background: #333;
+    background: #000000;
     color: white;
 }
