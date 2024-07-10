@@ -1,6 +1,6 @@
 body {
-    background-color: #333;
-    font-family: 'calibri';
+    background-color: black;
+    font-family: 'Segoe UI';
     background-image: url(./assets/background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -31,9 +31,9 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 .welcomeHeading {
-    font-weight: 600; 
     margin-right: auto; 
     font-size: 25px;
+    font-weight: 800;
     background-image: linear-gradient(45deg, #f4f4f4, #8b8b8b);
     background-size: 100%;
     -webkit-background-clip: text;
@@ -41,8 +41,23 @@ nav ul li a:hover {
     -webkit-text-fill-color: transparent; 
     -moz-text-fill-color: transparent;
 }
+li {
+    font-size: 26px;
+    margin-left: 30px;
+    list-style-type: none;
+    font-family: 'Segoe UI';
+    font-weight: 700;
+}
+#typingText {
+    color: #B8B8B8;
+    text-align: center;
+    margin-top: 200px;
+}
+.auto-type{
+    color: #B8B8B8;
+}
 footer {
-    background-color: black;
+    background-color: #181818;
     color:#fff;
     text-align: center;
     padding: 10px;
@@ -62,26 +77,22 @@ footer {
      opacity: 0.7;
 }
 .fa-facebook {
-    background: #000000;
+    background: #181818;
     color: white;
 }
 .fa-instagram {
-    background: #000000;
+    background: #181818;
     color: white;
 }
 .fa-linkedin {
-    background: #000000;
+    background: #181818;
     color: white;
 }
 .fa-github {
-    background: #000000;
+    background: #181818;
     color: white;
 }
-#typingText {
-    color: #B8B8B8;
-    text-align: center;
-    margin-top: 200px;
-}
-.auto-type{
-    color: #B8B8B8;
+p {
+    font-family: 'Segoe UI';
+    font-weight: 700;
 }

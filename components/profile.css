@@ -30,9 +30,9 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 .welcomeHeading {
-    font-weight: 600; 
     margin-right: auto; 
     font-size: 25px;
+    font-weight: 800;
     background-image: linear-gradient(45deg, #f4f4f4, #8b8b8b);
     background-size: 100%;
     -webkit-background-clip: text;
@@ -50,17 +50,22 @@ h2 {
     padding: 30px;
     font-size: 50px;
     text-align: center;
+    font-family: 'Segoe UI';
 }
 li {
-    font-size: 30px;
+    font-size: 26px;
     margin-left: 30px;
+    list-style-type: none;
+    font-family: 'Segoe UI';
+    font-weight: 700;
 }
 .content {
-    font-size: 20px;
-    margin-left: 30px; 
+    font-size: 18px;
+    margin-left: 30px;
+    font-family: 'Segoe UI';
 }
 footer {
-    background-color: #000000;
+    background-color: #181818;
     color:#fff;
     text-align: center;
     padding: 10px;
@@ -80,18 +85,22 @@ footer {
      opacity: 0.7;
 }
 .fa-facebook {
-    background: #000000;
+    background: #181818;
     color: white;
 }
 .fa-instagram {
-    background: #000000;
+    background: #181818;
     color: white;
 }
 .fa-linkedin {
-    background: #000000;
+    background: #181818;
     color: white;
 }
 .fa-github {
-    background: #000000;
+    background: #181818;
     color: white;
+}
+.footerText {
+    font-family: 'Segoe UI';
+    font-weight: 700;
 }
