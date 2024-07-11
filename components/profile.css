@@ -6,7 +6,6 @@ body {
     overflow-x: hidden;
 }
 nav {
-    background-color: black;
     color: #fff;
     padding: 10px;
 }
@@ -31,8 +30,8 @@ nav ul li a:hover {
 }
 .welcomeHeading {
     margin-right: auto; 
-    font-size: 25px;
-    font-weight: 800;
+    font-size: 50px;
+    font-weight: 700;
     background-image: linear-gradient(45deg, #f4f4f4, #8b8b8b);
     background-size: 100%;
     -webkit-background-clip: text;
