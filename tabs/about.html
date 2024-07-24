@@ -2,37 +2,28 @@
 <html>
 
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./components/navbar.css">
-    <link rel="stylesheet" href="./components/footer.css">
-    <link rel="stylesheet" href="./index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../components/navbar.css">
+    <link rel="stylesheet" href="../components/footer.css">
+    <link rel="stylesheet" href="./about.css">
 </head>
 
 <body>
 
     <div id="navbar">
-        <a href="./index.html" id="logo">Home</a>
+        <a href="./about.html" id="logo">About</a>
         <div id="navbar-right">
-            <a class="active" href="./index.html">Home</a>
-            <a href="./tabs/profile.html">Profile</a>
-            <a href="./tabs/about.html">About</a>
+            <a href="../index.html">Home</a>
+            <a href="./profile.html">Profile</a>
+            <a class="active" href="./about.html">About</a>
         </div>
     </div>
 
-    <div id="typingText">
-        <h3 style="color: #B8B8B8; text-align: center; font-size: 25px">Welcome to My Profile</h3>
-        <h1 style="color: #B8B8B8; text-align: center; font-size: 50px">I am <span class="auto-type"></span></h1>
-    </div>
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-    <script>
-        var typed = new Typed(".auto-type", {
-            strings: ["Ishara Harshana", "a Front-End Developer", "a Programmer", "a Designer", "a Musician"],
-            typeSpeed: 80,
-            backSpeed: 50,
-            loop: true,
-        }
-        )
-    </script>
+    <main>
+        <section>
+            <img class="profileImage" src="../assets/profileImage.png" alt="Profile Image">
+        </section>
+    </main>
 
     <script>
         // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
@@ -54,11 +45,11 @@
             const width = window.innerWidth;
 
             if (width < 800) {
-                document.body.style.backgroundImage = "url('./assets/background2.jpg')";
+                document.body.style.backgroundImage = "url('../assets/background2.jpg')";
             } else if (width < 1200) {
-                document.body.style.backgroundImage = "url('./assets/background1.jpg')";
+                document.body.style.backgroundImage = "url('../assets/background1.jpg')";
             } else {
-                document.body.style.backgroundImage = "url('./assets/background.jpg')";
+                document.body.style.backgroundImage = "url('../assets/background.jpg')";
             }
         }
 
