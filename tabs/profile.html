@@ -13,6 +13,9 @@
 
     <div id="navbar">
         <a href="./profile.html" id="logo">Profile</a>
+        <div id="hamburger-icon" onclick="toggleNavbar()">
+            ☰
+        </div>
         <div id="navbar-right">
             <a href="../index.html">Home</a>
             <a class="active" href="./profile.html">Profile</a>
@@ -83,6 +86,11 @@
                 document.getElementById("logo").style.fontSize = "35px";
             }
         }
+
+        function toggleNavbar() {
+                const navbarRight = document.getElementById("navbar-right");
+                navbarRight.classList.toggle("show");
+            }
     </script>
 
 </body>

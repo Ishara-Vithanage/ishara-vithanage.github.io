@@ -13,6 +13,9 @@
 
     <div id="navbar">
         <a href="./about.html" id="logo">About</a>
+        <div id="hamburger-icon" onclick="toggleNavbar()">
+            ☰
+        </div>
         <div id="navbar-right">
             <a href="../index.html">Home</a>
             <a href="./profile.html">Profile</a>
@@ -23,19 +26,18 @@
     <div class="middle">
         <img class="profileImage" src="../assets/profileImage.png" alt="Profile Image">
         <div class="contact">
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-            <a href="mailto:your-email@example.com" title="Email"><i class="fa fa-envelope"></i></a><br>
-            <a href="https://facebook.com/yourprofile" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a><br>
-            <a href="https://instagram.com/yourprofile" target="_blank" title="Instagram"><i class="fa fa-instagram"></i></a><br>
-            <a href="https://linkedin.com/in/yourprofile" target="_blank" title="LinkedIn"><i class="fa fa-linkedin"></i></a><br>
-            <a href="https://github.com/yourprofile" target="_blank" title="GitHub"><i class="fa fa-github"></i></a><br>
+            <h2>Contact Me</h2>
+            <p class="content">Ishara Harshana</p>
+            <p class="content">
         </div>
     </div>
 
     <script>
         // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
-        window.onscroll = function () { scrollFunction() };
+        
+    </script>
 
+    <script>
         function scrollFunction() {
             if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
                 document.getElementById("navbar").style.padding = "10px 10px";
@@ -45,12 +47,10 @@
                 document.getElementById("logo").style.fontSize = "35px";
             }
         }
-    </script>
+        window.onscroll = function () { scrollFunction() };
 
-    <script>
         function adjustBackgroundImage() {
             const width = window.innerWidth;
-
             if (width < 800) {
                 document.body.style.backgroundImage = "url('../assets/background2.jpg')";
             } else if (width < 1200) {
@@ -61,8 +61,12 @@
         }
 
         window.addEventListener('resize', adjustBackgroundImage);
-
         adjustBackgroundImage();
+
+        function toggleNavbar() {
+                const navbarRight = document.getElementById("navbar-right");
+                navbarRight.classList.toggle("show");
+            }
     </script>
 
 </body>

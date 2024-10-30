@@ -10,9 +10,11 @@
 </head>
 
 <body>
-
     <div id="navbar">
         <a href="./index.html" id="logo">Home</a>
+        <div id="hamburger-icon" onclick="toggleNavbar()">
+            ☰
+        </div>
         <div id="navbar-right">
             <a class="active" href="./index.html">Home</a>
             <a href="./tabs/profile.html">Profile</a>
@@ -36,8 +38,6 @@
     </script>
 
     <script>
-        // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
-        window.onscroll = function () { scrollFunction() };
 
         function scrollFunction() {
             if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
@@ -48,24 +48,30 @@
                 document.getElementById("logo").style.fontSize = "35px";
             }
         }
-    </script>
 
-    <script>
-        function adjustBackgroundImage() {
-            const width = window.innerWidth;
+            // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+            window.onscroll = function () { scrollFunction() };
 
-            if (width < 800) {
-                document.body.style.backgroundImage = "url('./assets/background2.jpg')";
-            } else if (width < 1200) {
-                document.body.style.backgroundImage = "url('./assets/background1.jpg')";
-            } else {
-                document.body.style.backgroundImage = "url('./assets/background.jpg')";
+            function adjustBackgroundImage() {
+                const width = window.innerWidth;
+
+                if (width < 800) {
+                    document.body.style.backgroundImage = "url('./assets/background2.jpg')";
+                } else if (width < 1200) {
+                    document.body.style.backgroundImage = "url('./assets/background1.jpg')";
+                } else {
+                    document.body.style.backgroundImage = "url('./assets/background.jpg')";
+                }
             }
-        }
 
-        window.addEventListener('resize', adjustBackgroundImage);
+            window.addEventListener('resize', adjustBackgroundImage);
+            adjustBackgroundImage();
 
-        adjustBackgroundImage();
+            function toggleNavbar() {
+                const navbarRight = document.getElementById("navbar-right");
+                navbarRight.classList.toggle("show");
+            }
+
     </script>
 
 </body>
