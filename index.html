@@ -49,28 +49,28 @@
             }
         }
 
-            // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
-            window.onscroll = function () { scrollFunction() };
+        // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+        window.onscroll = function () { scrollFunction() };
 
-            function adjustBackgroundImage() {
-                const width = window.innerWidth;
+        function adjustBackgroundImage() {
+            const width = window.innerWidth;
 
-                if (width < 800) {
-                    document.body.style.backgroundImage = "url('./assets/background2.jpg')";
-                } else if (width < 1200) {
-                    document.body.style.backgroundImage = "url('./assets/background1.jpg')";
-                } else {
-                    document.body.style.backgroundImage = "url('./assets/background.jpg')";
-                }
+            if (width < 800) {
+                document.body.style.backgroundImage = "url('./assets/background2.jpg')";
+            } else if (width < 1200) {
+                document.body.style.backgroundImage = "url('./assets/background1.jpg')";
+            } else {
+                document.body.style.backgroundImage = "url('./assets/background.jpg')";
             }
+        }
 
-            window.addEventListener('resize', adjustBackgroundImage);
-            adjustBackgroundImage();
+        window.addEventListener('resize', adjustBackgroundImage);
+        adjustBackgroundImage();
 
-            function toggleNavbar() {
-                const navbarRight = document.getElementById("navbar-right");
-                navbarRight.classList.toggle("show");
-            }
+        function toggleNavbar() {
+            const navbarRight = document.getElementById("navbar-right");
+            navbarRight.classList.toggle("show");
+        }
 
     </script>
 
