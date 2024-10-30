@@ -20,7 +20,12 @@ body {
 }
 
 .middle {
-    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .profileImage {
@@ -28,15 +33,42 @@ body {
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    margin-top: 150px;
-    display: block;
+    margin-top: 50px;
 }
 
 .contact {
+    color: aliceblue;
     overflow: auto; 
     float: inline-end;
     margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
 }
+
+.content {
+    color: aliceblue;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 50px;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.fa-instagram, .fa-facebook, .fa-linkedin, .fa-github {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
+
 
 .fa {
     padding: 10px;
@@ -90,4 +122,23 @@ body {
 * {
     scrollbar-width: thin;
     scrollbar-color: #888 #1e1e1e; /* Thumb color and track color */
+}
+
+@media screen and (max-width: 800px) {
+    .middle {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .profileImage {
+        width: 200px;
+        height: 200px;
+        margin-top: 20px;
+    }
+
+    .contact {
+        text-align: left;
+        margin: 10px 0;
+    }
 }
