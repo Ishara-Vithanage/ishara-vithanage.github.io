@@ -50,11 +50,20 @@ body {
     color: aliceblue;
 }
 
+.stay-connected {
+    font-size: 24px;
+    font-weight: bold;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
 .social-icons {
     display: flex;
     justify-content: center;
     gap: 15px;
-    margin-top: 50px;
 }
 
 .social-icons a {
@@ -62,6 +71,7 @@ body {
     font-size: 30px;
     text-decoration: none;
     padding: 10px;
+    background-color: transparent;
 }
 
 .fa-instagram, .fa-facebook, .fa-linkedin, .fa-github {
@@ -140,5 +150,9 @@ body {
     .contact {
         text-align: left;
         margin: 10px 0;
+    }
+
+    .social-icons a {
+        margin-top: 40px;
     }
 }
