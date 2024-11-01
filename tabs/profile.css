@@ -64,12 +64,13 @@ li {
 
     li {
         font-size: 20px; /* Adjust font size for better readability */
-        margin-left: 15px;
+        margin-left: 0px;
     }
 
     .content {
-        font-size: 16px; /* Slightly smaller font for mobile */
-        margin-left: 15px;
+        font-size: 14px; /* Slightly smaller font for mobile */
+        margin-left: 0px;
+        margin-top: 5px;
     }
 }
 
@@ -121,3 +122,4 @@ li {
     scrollbar-width: thin;
     scrollbar-color: #888 #1e1e1e; /* Thumb color and track color */
 }
+

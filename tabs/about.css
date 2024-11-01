@@ -33,7 +33,8 @@ body {
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    margin-top: 50px;
+    margin-top: 20px;
+    border: solid #dcdada;
 }
 
 .contact {
@@ -64,7 +65,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 15px;
-    margin-top: -20px;
+    margin-top: -10px;
 }
 
 .social-icons a {
@@ -78,35 +79,6 @@ body {
 .fa-instagram, .fa-facebook, .fa-linkedin, .fa-github {
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
-}
-
-
-.fa {
-    padding: 10px;
-    border-radius: 20%;
-    padding: 20px;  
-    text-align: center;  
-    margin: 5px 2px;  
-    font-size: 30px;  
-    width: 50px; 
-}
-.fa:hover {
-     opacity: 0.7;
-}
-.fa-envelope {
-    color: white;
-}
-.fa-facebook {
-    color: white;
-}
-.fa-instagram {
-    color: white;
-}
-.fa-linkedin {
-    color: white;
-}
-.fa-github {
-    color: white;
 }
 
 /* Scrollbar for Webkit browsers (Chrome, Safari) */
