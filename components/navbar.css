@@ -11,6 +11,11 @@
   justify-content: space-between;
 }
 
+/* Add black background when navbar is active */
+#navbar.active-bg {
+  background-color: black;
+}
+
 #navbar a {
   font-weight: bold;
   color: #fff;
@@ -61,7 +66,6 @@
 @media screen and (max-width: 580px) {
   #navbar {
     padding: 20px 10px !important;
-    background-color: black;
     background-blend-mode: multiply;
   }
 
@@ -87,6 +91,7 @@
     display: block;
   }
 
+  /* Make navbar-right visible when "show" class is toggled */
   #navbar-right.show {
     display: block;
   }

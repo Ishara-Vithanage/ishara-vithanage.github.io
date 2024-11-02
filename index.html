@@ -68,8 +68,10 @@
         adjustBackgroundImage();
 
         function toggleNavbar() {
+            const navbar = document.getElementById("navbar");
             const navbarRight = document.getElementById("navbar-right");
             navbarRight.classList.toggle("show");
+            navbar.classList.toggle("active-bg"); // Adds the background color to the entire navbar
         }
 
     </script>
