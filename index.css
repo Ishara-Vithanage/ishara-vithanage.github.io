@@ -23,6 +23,7 @@ h3 {
   color: #B8B8B8; 
   text-align: center;
   font-size: 25px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h1 {
@@ -36,6 +37,9 @@ h1 {
   text-align: center;
   margin-top: 300px;
   flex: 1;
+  font-family: "Tiny5", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .auto-type {
@@ -85,7 +89,7 @@ h1 {
   #typingText {
     color: #B8B8B8;
     text-align: center;
-    margin-top: 60%;
+    margin-top: 75%;
     flex: 1;
   }
 }
