@@ -37,7 +37,8 @@ h2 {
 li {
     color: #E8E8E8;
     font-size: 26px;
-    margin-left: 30px;
+    margin-left: 15px;
+    margin-right: 20px;
     list-style-type: square;
     font-family: 'Segoe UI';
     font-weight: 700;
@@ -45,8 +46,9 @@ li {
 
 .content {
     font-size: 18px;
-    margin-left: 30px;
+    margin-left: 15px;
     font-family: 'Segoe UI';
+    margin-right: 20px;
 }
 
 /* Responsive styles for mobile devices */
