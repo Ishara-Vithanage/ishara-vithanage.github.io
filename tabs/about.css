@@ -46,6 +46,19 @@ body {
     padding: 20px;
 }
 
+.sign {
+    text-align: left;
+    font-family: "Dancing Script", cursive;
+    font-size: 40px;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.email {
+    text-align: right;
+}
+
 .content {
     color: aliceblue;
 }
@@ -113,6 +126,11 @@ body {
         padding: 20px;
     }
 
+    .contact-me {
+        text-align: center;
+
+    }
+
     .profileImage {
         width: 150px;
         height: 150px;
@@ -124,7 +142,20 @@ body {
         margin: 10px 0;
     }
 
+    .sign {
+        text-align: center;
+    }
+
     .social-icons a {
         margin-top: 40px;
+        padding: 20px;
+    }
+
+    .fa-facebook {
+        margin-left: -28px;
+    }    
+
+    .stay-connected {
+        text-align: center;
     }
 }

@@ -53,12 +53,12 @@ li {
 @media (max-width: 768px) {
     section {
         width: 90%; /* Take up more width on smaller screens */
-        margin-top: 100px;
-        padding: 15px;
+        margin-top: 50px;
+        padding: 5px;
     }
 
     h2 {
-        font-size: 32px; /* Smaller font size for mobile */
+        font-size: 40px; /* Smaller font size for mobile */
         padding: 20px;
     }
 
@@ -71,28 +71,6 @@ li {
         font-size: 14px; /* Slightly smaller font for mobile */
         margin-left: 0px;
         margin-top: 5px;
-    }
-}
-
-@media (max-width: 480px) {
-    section {
-        width: 95%;
-        margin-top: 80px;
-    }
-
-    h2 {
-        font-size: 28px;
-        padding: 15px;
-    }
-
-    li {
-        font-size: 18px;
-        margin-left: 10px;
-    }
-
-    .content {
-        font-size: 15px;
-        margin-left: 10px;
     }
 }
 
