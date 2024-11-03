@@ -58,17 +58,17 @@ li {
     }
 
     h2 {
-        font-size: 40px; /* Smaller font size for mobile */
+        font-size: 30px; /* Smaller font size for mobile */
         padding: 20px;
     }
 
     li {
-        font-size: 20px; /* Adjust font size for better readability */
+        font-size: 15px; /* Adjust font size for better readability */
         margin-left: 0px;
     }
 
     .content {
-        font-size: 14px; /* Slightly smaller font for mobile */
+        font-size: 12px; /* Slightly smaller font for mobile */
         margin-left: 0px;
         margin-top: 5px;
     }

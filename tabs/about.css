@@ -49,7 +49,7 @@ body {
 .sign {
     text-align: left;
     font-family: "Dancing Script", cursive;
-    font-size: 40px;
+    font-size: 30px;
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
@@ -57,6 +57,7 @@ body {
 
 .email {
     text-align: right;
+    font-size: 10px;
 }
 
 .content {
@@ -77,7 +78,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 15px;
-    margin-top: -10px;
+    margin-top: 20px;
 }
 
 .social-icons a {
