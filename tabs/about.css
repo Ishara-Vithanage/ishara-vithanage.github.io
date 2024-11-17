@@ -120,6 +120,15 @@ body {
     scrollbar-color: #888 #1e1e1e; /* Thumb color and track color */
 }
 
+.try-hack-me {
+    width: 20%;
+    height: auto;
+    margin: 0 auto; /* Center horizontally */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 @media screen and (max-width: 800px) {
     .middle {
         flex-direction: column;
