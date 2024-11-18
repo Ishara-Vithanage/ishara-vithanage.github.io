@@ -168,4 +168,13 @@ body {
     .stay-connected {
         text-align: center;
     }
+
+    .try-hack-me {
+        width: 40%;
+        height: auto;
+        margin: 0 auto; /* Center horizontally */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
